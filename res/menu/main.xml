@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/change_view"
+        android:title="@string/change_view"/>
+    <item
+        android:id="@+id/credits"
+        android:title="@string/credits"/>
+    <item
+        android:id="@+id/show_options"
+        android:icon="@drawable/list"
+        android:showAsAction="ifRoom"
+        android:title="@string/show_options"/>
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/plus"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_add">
+        <menu>
+            <item
+                android:id="@+id/create_file"
+                android:icon="@drawable/add_file"
+                android:title="@string/add_file"/>
+            <item
+                android:id="@+id/create_folder"
+                android:icon="@drawable/add_folder"
+                android:title="@string/add_folder"/>
+        </menu>
+    </item>
+
+</menu>
